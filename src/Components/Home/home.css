@@ -1,0 +1,29 @@
+main{
+    width: 100%;
+}
+
+.main .container{
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .container .main-header-side{
+    position: sticky;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    height: 100%;
+    width: 23%;
+    color: black;
+    background-color: black;
+}
+
+.main .container .main-home-side{
+    width: 77%;
+    height: 100%;
+    overflow-y: auto;
+}

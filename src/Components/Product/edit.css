@@ -1,0 +1,15 @@
+.edit-product {
+    display: flex;
+
+    /* border: 2px solid; */
+    align-items: center;
+    /* overflow: hidden; */
+    padding: 1rem;
+    position: absolute;
+
+top: 2px;    gap: 2rem;
+    justify-content: space-between
+}
+.Old-Product{
+    max-width: 50%;
+}

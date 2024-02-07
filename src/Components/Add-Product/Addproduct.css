@@ -1,0 +1,86 @@
+/* AddProducts.css */
+
+.add-product-main-box{
+    width: 100%;
+    height: 100%;
+}
+
+.add-product-main-box .add-product-container-box{
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProductContainer {
+    width: 600px;
+    /* position: absolute; */
+    z-index: 9999;
+    padding: 20px;
+    text-transform: uppercase;
+    top: 2px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-add-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-add-heading h3 {
+    color: #333;
+}
+
+.Add-form {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.forms-product {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group select {
+padding: 0.5rem;
+}
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-add {
+    text-align: center;
+}
+
+.button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
