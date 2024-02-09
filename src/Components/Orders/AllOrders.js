@@ -3,7 +3,7 @@ import axios from "axios"
 import OrderTable from './OrderTable';
 const AllOrders = () => {
   const [Orders,setOrders] = useState()
-  const token = localStorage.getItem('Token');
+  const token = localStorage.getItem('token');
 
   const handleFetch = async() =>{
     try {
@@ -14,7 +14,7 @@ const AllOrders = () => {
         },
       }
       )
-      console.log(response.data.data)
+      console.log('allorder',response.data.data)
       setOrders(response.data.data)
     } catch (error) {
       console.log(error)

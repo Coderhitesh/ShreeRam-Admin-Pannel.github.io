@@ -9,6 +9,9 @@ import HomeScreen from './HomeScreen';
 import AllOrders from '../Orders/AllOrders';
 import './home.css'
 import Register from '../Register/Register';
+import Payment from '../Payments/Payment';
+import Shipped from '../shipped/Shipped';
+import ChangeOrderStatus from '../Orders/ChangeOrderStatus';
 
 const Home = () => {
   return (
@@ -28,6 +31,8 @@ const Home = () => {
             <Route path="/Edit-Product/:id" element={<EditProduct />} />
             <Route path="/All-Order" element={<AllOrders />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/payments" element={<Payment />} />
+            <Route path="/changeorder/:id" element={<ChangeOrderStatus />} />
 
           </Routes>
         </div>

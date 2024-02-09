@@ -43,7 +43,7 @@ const AddProduct = () => {
         }));
     };
 
-    const token = localStorage.getItem('Token');
+    const token = localStorage.getItem('token');
     console.log(token)
 
     const handleSubmit = async (e) => {

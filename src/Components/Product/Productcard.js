@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import axios from 'axios';
 import { toast } from 'react-hot-toast';
 const Productcard = ({Product}) => {
-    const token = localStorage.getItem('Token');
+    const token = localStorage.getItem('token');
+    
 
     const handleDelete = async (id) => {
 console.log("first",id)
